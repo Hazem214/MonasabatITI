@@ -1,0 +1,247 @@
+﻿@using ITI.Monasabat.Models
+@model Place;
+
+
+
+
+    <title>Details</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+   
+
+
+
+
+
+    
+
+@if(Model !=null){
+
+
+
+    <!-- Open Content -->
+    <section class="bg-light">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-lg-5 mt-5">
+                    <div class="card mb-3">
+                        <img class="card-img img-fluid" style="height:300px;width:100%;margin:5px; border-radius: 10px; " src="~/placeimg/@Model.PlaceImages.FirstOrDefault().Path" alt="Card image cap" id="product-detail">
+                    </div>
+                    
+                    <div class="row">
+
+                        @foreach (var item in Model.PlaceImages)
+                        {
+                            <div class="col-4">
+                            <img class="card-img img-fluid" src="~/placeimg/@item.Path" alt="Card image cap" style="height:100px">
+                            </div>
+                        }
+
+
+
+                        </div>
+                   
+                </div>
+                <!-- col end -->
+                <div class="col-lg-7 mt-5 sm-12">
+                    <div class="card" style="    height: 99%;">
+                        <div class="card-body">
+                            <!--Describtion-->
+                            <h6>
+                                Description: This Is @Model.Type is owned to Mr @Model.PlaceOwner.Name and it had a very good reviews from the
+                                the previous clients
+                                <br>
+                            </h6>
+
+                            <h1 class="h2">@Model.Name </h1> <!--Hall Name-->
+                            <p class="h3 py-2"><h6>Price:@Model.Price </h6> </p> <!--Hall Price-->
+                           
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <h6>Place Type:@Model.Type</h6> <!--Place Type-->
+                                </li>
+                                
+                            </ul>
+
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <!--owner name-->
+                                    <h6>The Owner Name:@Model.PlaceOwner.Name</h6>
+                                </li>
+                                
+                            </ul>
+
+
+
+
+
+                            <form method="post" asp-controller="PlaceOcc" asp-action="reserve" asp-route-place_id="@Model.ID">
+                               
+                                <div class="row">
+                                   
+                                    <div class="">
+                                        <h6>Date : <input type="date"  id="date" name="date" style="padding: 10px;Margin: 10 px;" /></h6>
+                                        
+                                    </div>
+                                    @if (ViewBag.isValid==false)
+						             {
+							            <span class="text-danger">Soryy this date is not available</span>
+
+						             }
+                                    <div class="row pb-3" style="    width: 150px;   position: absolute;  user-select: auto;  position: absolute;  bottom: 0; width: 90%; border-radius: 5px; padding-left: 97px; ">
+
+                                        <input type="submit" style="    border-radius: 39px;" class="btn btn-primary btn-lg" value="Reserve" />
+                                    </div>
+                                </div>
+                                
+                                    
+                                
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5 mb-5 ">
+            <div class="d-flex justify-content-center row">
+                <div class="d-flex flex-column col-md-8">
+
+                    <div class="coment-bottom bg-white p-2 px-4">
+                        <div class="d-flex flex-row add-comment-section mt-4 mb-4">
+                            @if (ViewBag.CommentPlace == true)
+                            {
+
+                                <form asp-controller="PlaceOcc" asp-action="AddComment" asp-route-id="@Model.ID">
+                                    <div>
+                                        <label>Write a review about your experiment with the place</label>
+                                        <textarea cols="70" name="text" id="text" rows="3" placeholder="Add Comment "></textarea>
+                                    </div>
+
+                                    <input class="btn btn-primary" type="submit" style="height:50px;margin-top: 10px;width: 175px; ; " value="Post"  />
+                                </form>
+                            }
+                            else{
+                                <div>
+                                    <label>You will be able to review the place after one complete experiment</label>
+                                    <textarea cols="70" rows="3" placeholder="Write your comment here" disabled></textarea>
+                                </div>
+                                <input type="submit" value="Comment " style="height:50px;margin-top: 40px;width: 175px;" class="btn btn-primary" disabled />
+                            }
+                        </div>
+                        <div style="margin-top:40px" class="commented-section mt-2">
+                            <h6>Client Reviews</h6>
+                            <div class="d-flex flex-row align-items-center commented-user">
+                                <h5 class="mr-2"><!--Amar --></h5><span class="dot mb-1"></span></div>
+                            <div class="comment-text-sm" >
+                                <span>
+                                    @if (ViewBag.Comments == null || ViewBag.Comments.Count == 0)
+                                    {
+
+                                        <div class="comment col-sm-12 col-md-10 col-lg-8 comment-text-sm">
+                                            <p style="padding-left:10px;text-align:left;font-family:Montserrat-Bold;">No user name</p>
+                                            <p style="font-family:Montserrat-Bold;">This place is not reviewed until now</p>
+                                        </div>
+
+                                    }
+                                    else
+                                    {
+                                        @foreach (var item in ViewBag.Comments)
+                                        {
+                                            <div class="comment col-sm-12 col-md-10 col-lg-8 comment-text-sm">
+                                                <p style="padding-left:10px;text-align:left;font-family:Montserrat-Bold;">@item.UserName</p>
+                                                <p style="font-family:Montserrat-Regular;">@item.Comment</p>
+                                            </div>
+
+                                        }
+                                    }
+                                </span>
+                            </div>
+
+                           
+                    </div>
+                </div>
+               
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </section>
+    <!-- Close Content -->
+
+   
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+
+    <!-- Start Slider Script -->
+    <script src="assets/js/slick.min.js"></script>
+    <script>
+        $('#carousel-related-product').slick({
+            infinite: true,
+            arrows: false,
+            slidesToShow: 4,
+            slidesToScroll: 3,
+            dots: true,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 3
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 3
+                    }
+                }
+            ]
+        });
+    </script>
+    <!-- End Slider Script -->
+}
+
+
+			
+	
+	
+    
+
+
+
+
+
+

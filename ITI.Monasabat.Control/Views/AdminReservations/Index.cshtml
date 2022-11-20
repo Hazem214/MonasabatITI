@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Monasapat.Models.Reservation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    Layout = "_Layout2";
+}
+<h1 class="text-center m-4">Manage Reservations</h1>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+
+<div class="container m-t-4">
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ReservationTime)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PaidMoney)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.remainingMoney)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.TotalMoney)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Place)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.User)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+        @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReservationTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PaidMoney)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.remainingMoney)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TotalMoney)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Place.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.FirstName)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-outline-primary">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-outline-info">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-outline-danger">Delete</a>
+                    </td>
+                </tr>
+        }
+            </tbody>
+        </table>
+</div>

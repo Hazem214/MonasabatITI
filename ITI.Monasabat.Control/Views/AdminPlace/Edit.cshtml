@@ -1,0 +1,87 @@
+﻿@{
+    Layout = "_Layout2";
+}
+
+@model AddViewModel
+<h2 class="p-2 bg-light border text-center">Edit Place</h2>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+
+<form role="form" align="center" method="post" asp-controller="AdminPlace" asp-action="Edit" enctype="multipart/form-data">
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" id="Name" name="name"  value="@ViewBag.Title">
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Price</label>
+        <input type="text" class="form-control" id="Price" name="price" value="@ViewBag.PlacePrice">
+        <span asp-validation-for="Price"></span>
+    </div>
+
+   
+
+
+    <div class="mb-3 ">
+        <label class="form-label">Type</label>
+        <input type="text" class="form-control" id="Type" name="Type" value="@ViewBag.PlaceName.">
+        <span asp-validation-for="Type"></span>
+
+    </div>
+
+
+    
+
+        <div class="mb-3 ">
+            <label class="form-label">Images</label>
+            <input type="file" class="form-control" id="Images" name="Images" multiple value="Images">
+            <span asp-validation-for="Images"></span>
+           
+        </div> 
+    
+   <div class="mb-3 ">
+
+        <label class="form-label">PlaceOwner</label>
+
+        <select class="form-control" id="PlaceOwnerID" name="PlaceOwnerID">
+            @foreach (PlaceOwner owner in ViewBag.placeowners)
+            {
+                <option value="@owner.ID">@owner.Name</option>
+            }
+        </select>
+        
+
+    </div>
+
+    <div class="mb-3 ">
+
+        <label class="form-label">City</label>
+
+        <select class="form-control" id="CityID" name="CityID">
+                @foreach (City city in ViewBag.cities)
+            {
+                <option value="@city.ID">@city.Name</option>
+            }
+        </select>
+       
+
+    </div>
+
+        
+
+   
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+        </div>
+    </div>
+    </div>
+    
+

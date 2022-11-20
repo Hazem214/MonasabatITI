@@ -1,0 +1,14 @@
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\bin\Debug\net6.0\Monasapat.Models.deps.json
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\bin\Debug\net6.0\Monasapat.Models.runtimeconfig.json
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\bin\Debug\net6.0\Monasapat.Models.dll
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\bin\Debug\net6.0\Monasapat.Models.pdb
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\Monasapat.Models.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\Monasapat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\Monasapat.Models.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\Monasapat.Models.AssemblyInfo.cs
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\Monasapat.Models.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\Monasapat.Models.dll
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\refint\Monasapat.Models.dll
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\Monasapat.Models.pdb
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\Monasapat.Models.genruntimeconfig.cache
+C:\Users\dell\Desktop\test vusual\Monasapat\Monasapat\obj\Debug\net6.0\ref\Monasapat.Models.dll

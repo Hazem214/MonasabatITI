@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url('../images/bac.jpg');
+    background-repeat: round;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: white;
+  
+    width: 400px;
+    max-width: 100%;;
+    overflow: hidden;
+    position: absolute;
+    left: 40%;
+}
+
+.header{
+    border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+}
+
+.header h2{
+   text-align: center;
+}
+
+.form{
+    padding: 30px 40px;
+
+}
+
+.form-contrl{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-contrl lable {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-contrl input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    font-family: inherit;
+}
+
+.form-contrl small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form button{
+    background-color: #e27542;
+	border: 2px solid  #a86d36;
+	border-radius: 9px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.form-contrl.success input{
+
+    border-color: #2ecc71;
+
+}
+
+.form-contrl.error input{
+
+    border-color: #e74c3c;
+
+}
+.form-contrl.error small{
+    visibility:visible ;
+    color: #e74c3c;
+
+}
+.singup{
+    margin: 20px;
+    text-align: center;
+
+}
+.singup a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+
+}
+.singup a:hover{
+
+    text-decoration: underline;
+}
+.imgg{
+    position: fixed;
+    margin-top: -57px;
+    margin-left: 332px;
+    height: 102px;
+}
+
+.titl{
+    position: absolute;
+    left: 200px;
+    top: 38%;
+}
+.titl h1{
+
+    color: #000678;
+    font-size: 54px;
+}
+span{
+    color: #d3d4df;
+    font-size: 32px;
+}
+
+.character{
+
+    width: 400px;
+    height: 467px;
+    margin-left: 1335px;
+
+}
+.imagecharacter{
+    width: 100%;
+    height: 77%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

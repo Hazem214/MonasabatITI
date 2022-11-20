@@ -1,0 +1,52 @@
+﻿@model SignUpModel
+@{
+    Layout = null;
+}
+
+<link rel="stylesheet" type="text/css"  href="~/css/registration.css">
+
+<div class="container1">
+    <div class="header">
+        <h2>Create Account</h2>
+    </div>
+    <form asp-controller="User" asp-action="SignUp" class="form" id="form">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="form-contrl">
+            <label asp-for="FirstName"></label>
+            <input class="form-control" placeholder="First name " asp-for="FirstName" />
+            <span asp-validation-for="FirstName" style="color:red;"></span>
+        </div>
+
+        <div class="form-contrl">
+            <label asp-for="LastName"></label>
+            <input class="form-control" placeholder="Last name" asp-for="LastName" />
+            <span asp-validation-for="LastName" style="color:red;"></span>
+        </div>
+
+        <div class="form-contrl">
+            <label asp-for="Email"></label>
+            <input class="form-control" placeholder="Hazem@gamil.com" asp-for="Email" />
+            <span asp-validation-for="Email" style="color:red;"></span>
+        </div>
+        <div class="form-contrl">
+            <label asp-for="UserName"></label>
+            <input class="form-control" asp-for="UserName" />
+            <span asp-validation-for="UserName" style="color:red;"></span>
+        </div>
+
+        <div class="form-contrl">
+            <label asp-for="Password"></label>
+            <input class="form-control" asp-for="Password" />
+            <span asp-validation-for="Password" style="color:red;"></span>
+        </div>
+
+        <div class="form-contrl">
+            <label asp-for="ConfirmPassword"></label>
+            <input class="form-control" asp-for="ConfirmPassword" />
+            <span asp-validation-for="ConfirmPassword" style="color:red;"></span>
+        </div>
+
+        <button>Submit</button>
+
+    </form>
+</div>

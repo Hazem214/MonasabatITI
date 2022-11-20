@@ -1,0 +1,126 @@
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.deps.json
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.runtimeconfig.json
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.dll
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.pdb
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.AssemblyReference.cache
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfoInputs.cache
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfo.cs
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.CoreCompileInputs.cache
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.dll
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\refint\ITI.Monasabat.Models.dll
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.pdb
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.genruntimeconfig.cache
+D:\Final Project ITI\Monasabat\Monasabat\Monasapat\obj\Debug\net6.0\ref\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.deps.json
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.runtimeconfig.json
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfo.cs
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\refint\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.genruntimeconfig.cache
+C:\Users\dell\Desktop\github\Monasabat\Monasapat\obj\Debug\net6.0\ref\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.deps.json
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.runtimeconfig.json
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfo.cs
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\refint\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.genruntimeconfig.cache
+C:\Users\dell\Desktop\temp2\Monasabat\Monasapat\obj\Debug\net6.0\ref\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.deps.json
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.runtimeconfig.json
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.AssemblyReference.cache
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfoInputs.cache
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfo.cs
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.CoreCompileInputs.cache
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\refint\ITI.Monasabat.Models.dll
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.genruntimeconfig.cache
+C:\Users\dell\Desktop\final porject last version\Monasabat\Monasapat\obj\Debug\net6.0\ref\ITI.Monasabat.Models.dll
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.deps.json
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.runtimeconfig.json
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.AssemblyReference.cache
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfoInputs.cache
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfo.cs
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.CoreCompileInputs.cache
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\refint\ITI.Monasabat.Models.dll
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.genruntimeconfig.cache
+C:\Users\ammar\Desktop\final\Monasabat\Monasapat\obj\Debug\net6.0\ref\ITI.Monasabat.Models.dll
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.deps.json
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.runtimeconfig.json
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.AssemblyReference.cache
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfoInputs.cache
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfo.cs
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.CoreCompileInputs.cache
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\refint\ITI.Monasabat.Models.dll
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.genruntimeconfig.cache
+C:\Users\dell\Downloads\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ref\ITI.Monasabat.Models.dll
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.deps.json
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.runtimeconfig.json
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.AssemblyReference.cache
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfoInputs.cache
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfo.cs
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\refint\ITI.Monasabat.Models.dll
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.genruntimeconfig.cache
+C:\Users\Ahmed Gamal\Desktop\last11-11-2022\final\Monasabat\Monasapat\obj\Debug\net6.0\ref\ITI.Monasabat.Models.dll
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.deps.json
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.runtimeconfig.json
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.AssemblyReference.cache
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfoInputs.cache
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfo.cs
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.CoreCompileInputs.cache
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\refint\ITI.Monasabat.Models.dll
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.genruntimeconfig.cache
+C:\Users\dell\Downloads\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ref\ITI.Monasabat.Models.dll
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.deps.json
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.runtimeconfig.json
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\bin\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.AssemblyReference.cache
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfoInputs.cache
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.AssemblyInfo.cs
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.dll
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\refint\ITI.Monasabat.Models.dll
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.pdb
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ITI.Monasabat.Models.genruntimeconfig.cache
+C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\Monasapat\obj\Debug\net6.0\ref\ITI.Monasabat.Models.dll

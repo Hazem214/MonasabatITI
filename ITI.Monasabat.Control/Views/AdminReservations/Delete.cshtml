@@ -1,0 +1,76 @@
+﻿@model Monasapat.Models.Reservation
+
+@{
+    ViewData["Title"] = "Delete";
+}
+@{
+    Layout = "_Layout2";
+}
+
+    <h2 class="p-2 bg-light border text-center">Delete Reservations</h2>
+
+
+    <div class="container">
+
+        <hr />
+    @*    <dl class="row">
+            <div class="col-md-4"></div>
+
+      
+
+            <div class="card" style="width: 38rem;">
+
+            <h3 class="card-text">Are you Sure You Want delete this Reservation ?</h3>
+                <div class="card-body">
+                <h5 class="card-title"> <b style="color:#e27542">Name : </b> @Html.DisplayFor(model => model.Status) </h5>
+                <h5 class="card-title"><b style="color:#e27542">Reservation time : </b> @Html.DisplayFor(model => model.ReservationTime) </h5>
+                <h5 class="card-title"><b style="color:#e27542">Paid Money :  </b>@Html.DisplayFor(model => model.PaidMoney) </h5>
+                <h5 class="card-title"><b style="color:#e27542">reamain Money :  </b>@Html.DisplayFor(model => model.remainingMoney) </h5>
+                <h5 class="card-title"><b style="color:#e27542">Total Money :</b>  @Html.DisplayFor(model => model.TotalMoney) </h5>
+                <h5 class="card-title"><b style="color:#e27542">Place Name : </b> @Html.DisplayFor(model => model.Place.Name) </h5>
+                <h5 class="card-title"><b style="color:#e27542">User Name  : </b> @Html.DisplayFor(model => model.User.FirstName)  @Html.DisplayFor(model => model.User.LastName) </h5>
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="ID" />
+                        <input type="submit" value="Delete" class="btn btn-danger" /> |
+                        <a class="text-end btn btn-primary" asp-action="Index">Back to List</a>
+                    </form>
+                </div>
+            </div>
+
+
+        </dl>*@
+    <div class="card card-user">
+        <div class="image">
+            <img src="~/images/bac.jpg" alt="..." />
+        </div>
+        <div class="content">
+            <div class="author">
+                <a href="#">
+                    <img class="avatar border-gray" src="~/images/blog-04.jpg" alt="..." />
+
+                    <h4 class="title">
+                        <b style="color:#e27542">Status :</b>  @Html.DisplayFor(model => model.Status) <br />
+                        <b style="color:#e27542">Reservation Time :</b>  @Html.DisplayFor(model => model.ReservationTime) <br />
+                        <b style="color:#e27542">paid Money :</b>  @Html.DisplayFor(model => model.PaidMoney) <br />
+                        <b style="color:#e27542">remaining money :</b>  @Html.DisplayFor(model => model.remainingMoney) <br />
+                        <b style="color:#e27542">total Monay :</b>  @Html.DisplayFor(model => model.Place.Name) <br />
+                        <b style="color:#e27542">User Name : </b> @Html.DisplayFor(model => model.User.FirstName) @Html.DisplayFor(model => model.User.LastName)<br />
+                        <small></small>
+                    </h4>
+                </a>
+            </div>
+            <div style="text-align:center;;margin:15px;">
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="ID" />
+                <input type="submit" value="Delete" class="btn btn-danger" /> |
+                <a class="text-end btn btn-primary" asp-action="Index">Back to List</a>
+            </form>
+            </div>
+
+        </div>
+        <hr>
+
+    </div>
+
+
+    </div>

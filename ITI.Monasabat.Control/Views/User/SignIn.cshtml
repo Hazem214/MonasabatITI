@@ -1,0 +1,38 @@
+﻿@model SignInModel
+@{
+    Layout = null;
+}
+<link rel="stylesheet" type="text/css" href="~/css/login.css">
+
+<div class="container">
+    <div class="header">
+        <h2>Login</h2>
+    </div>
+    <form asp-controller="User" asp-action="SignIn" method="post" class="form" id="form">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="form-contrl">
+            <label asp-for="UserName"></label>
+            <input asp-for="UserName" class="form-control" />
+            <span asp-validation-for="UserName"></span>
+        </div>
+
+        <div class="form-contrl">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" class="form-control" />
+            <span asp-validation-for="Password"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="RememberMe"></label>
+            <input asp-for="RememberMe" />
+            <span asp-validation-for="RememberMe"></span>
+        </div>
+
+        <button value="Login">Login</button>
+
+        <div class="singup">
+            Not a member? <a asp-controller="User" asp-action="SignUp" style="text-decoration:none;color: #e27542"> singup</a>
+        </div>
+
+    </form>
+</div>

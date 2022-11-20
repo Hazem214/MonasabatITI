@@ -1,0 +1,64 @@
+﻿@model Monasapat.Models.Reservation
+
+@{
+    ViewData["Title"] = "Create";
+}
+@{
+    Layout = "_Layout2";
+}
+<link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+<h1>Create</h1>
+
+<h4>Reservation</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReservationTime" class="control-label"></label>
+                <input asp-for="ReservationTime" class="form-control" />
+                <span asp-validation-for="ReservationTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PaidMoney" class="control-label"></label>
+                <input asp-for="PaidMoney" class="form-control" />
+                <span asp-validation-for="PaidMoney" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="remainingMoney" class="control-label"></label>
+                <input asp-for="remainingMoney" class="form-control" />
+                <span asp-validation-for="remainingMoney" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalMoney" class="control-label"></label>
+                <input asp-for="TotalMoney" class="form-control" />
+                <span asp-validation-for="TotalMoney" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="placeID" class="control-label"></label>
+                <select asp-for="placeID" class ="form-control" asp-items="ViewBag.placeID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserID" class="control-label"></label>
+                <select asp-for="UserID" class ="form-control" asp-items="ViewBag.UserID"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

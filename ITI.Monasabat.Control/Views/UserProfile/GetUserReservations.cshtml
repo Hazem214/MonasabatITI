@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+    <title>Document</title>
+    <style>
+        .profile-head {
+            transform: translateY(5rem)
+        }
+
+        .cover {
+            background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+            background-size: cover;
+            background-repeat: no-repeat
+        }
+
+        body {
+            background: #654ea3;
+            background: linear-gradient(to right, #e6e0de, #d4d0d4);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+
+
+        body {
+            font-family: 'lato', sans-serif;
+        }
+
+
+        h1 {
+            font-size: 30px;
+            color: rgb(17, 13, 13);
+            text-transform: uppercase;
+            font-weight: 300;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        .tbl-header {
+            background-color: rgba(255,255,255,0.3);
+        }
+
+        .tbl-content {
+            height: 300px;
+            overflow-x: auto;
+            margin-top: 0px;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+
+        th {
+            padding: 20px 15px;
+            text-align: left;
+            font-weight: 500;
+            font-size: 12px;
+            color: rgb(20, 13, 13);
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 15px;
+            text-align: left;
+            vertical-align: middle;
+            font-weight: 300;
+            font-size: 12px;
+            color: rgb(20, 14, 14);
+            border-bottom: solid 1px rgba(255,255,255,0.1);
+        }
+
+
+        /* demo styles */
+
+
+        body {
+            background: -webkit-linear-gradient(left, #cbd4d0, #c0c9ca);
+            background: linear-gradient(to right, #dbe2df, #a7aaaa);
+            font-family: 'Roboto', sans-serif;
+        }
+
+        section {
+            margin: 50px;
+        }
+
+
+        /* follow me template */
+        .made-with-love {
+            margin-top: 40px;
+            padding: 10px;
+            clear: left;
+            text-align: center;
+            font-size: 10px;
+            font-family: arial;
+            color: #fff;
+        }
+
+            .made-with-love i {
+                font-style: normal;
+                color: #F50057;
+                font-size: 14px;
+                position: relative;
+                top: 2px;
+            }
+
+            .made-with-love a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+                .made-with-love a:hover {
+                    text-decoration: underline;
+                }
+
+
+        /* for custom scrollbar for webkit browser*/
+
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="row">
+
+        <!-- Profile widget -->
+        <div class="bg-white shadow rounded overflow-hidden">
+            <div class="px-4 pt-0 pb-4 cover">
+                <div class="media align-items-end profile-head">
+                    <div class="profile mr-3">
+                        <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+                             alt="..." width="130" class="rounded mb-2 img-thumbnail"><a href="#"
+                                                                                         class="btn btn-outline-dark btn-sm btn-block">Your profile</a>
+                    </div>
+                    <div class="media-body mb-5 text-white">
+                        <h4 class="mt-0 mb-0">@ViewBag.LoginUser.FirstName @ViewBag.LoginUser.LastName </h4>
+                        <p class="small mb-4"> <i class="fas fa-map-marker-alt mr-2"></i>@ViewBag.LoginUser.Email</p>
+                    </div>
+                </div>
+            </div>f
+            <div class="bg-light p-4 d-flex justify-content-end text-center">
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <h5 class="font-weight-bold mb-0 d-block">215</h5><small class="text-muted">
+                            <i class="fas fa-image mr-1"></i>Photos
+                        </small>
+                    </li>
+                    <li class="list-inline-item">
+                        <h5 class="font-weight-bold mb-0 d-block">745</h5><small class="text-muted">
+                            <i class="fas fa-user mr-1"></i>Followers
+                        </small>
+                    </li>
+                    <li class="list-inline-item">
+                        <h5 class="font-weight-bold mb-0 d-block">340</h5><small class="text-muted">
+                            <i class="fas fa-user mr-1"></i>Following
+                        </small>
+                    </li>
+                </ul>
+            </div>
+            <div class="px-4 py-3">
+                <h5 class="mb-0">About profile</h5>
+                <div class="p-4 rounded shadow-sm bg-light">
+                    <p class="font-italic mb-0">Her you can sea your profile informations r</p>
+                    <p class="font-italic mb-0">You can see your reservations her </p>
+                    <p class="font-italic mb-0">You can only cancel your reservation two days in advance </p>
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <section>
+                    <!--for demo wrap-->
+                    <h1>Your Reservations</h1>
+                    <div class="tbl-header">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <thead>
+                                <tr>
+                                    <th>Place Name </th>
+                                    <th>Reservation date </th>
+                                    <th>status</th>
+                                    <th>Paid Money </th>
+                                    <th>remaining money</th>
+                                    <th> Total money</th>
+                                    <th> Actions </th>
+                                    <th> Message </th>
+                                    <th> Payment </th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div class="tbl-content">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tbody>
+                                @foreach (var item in ViewBag.ReservationsList)
+                                {
+                                    <tr>
+                                        <td><b>@item.Place.Name</b></td>
+                                        <td><b>@item.ReservationTime</b></td>
+                                        <td class="text-danger"><b>@item.Status </b></td>
+                                        <td><b>@item.PaidMoney</b></td>
+                                        <td><b>@item.remainingMoney</b></td>
+                                        <td><b>@item.TotalMoney</b></td>
+
+                                        <td>
+                                            @if (item.Status == "Done" || item.ReservationTime.Day - DateTime.Now.Day <= 2)
+                                            {
+                                                <span></span>
+                                            }
+                                            else
+                                            {
+                                                <a asp-action="Remove" asp-controller="UserProfile" asp-route-id="@item.ID" class="delete" title="Delete" data-toggle="tooltip"><i class="btn btn-danger">Cancel</i></a>
+
+                                            }
+
+                                        </td>
+                                        @if (item.ReservationTime.Day - DateTime.Now.Day >= 3 && item.PaidMoney < (item.TotalMoney / 4))
+                                        {
+                                            <td>
+
+                                                <span>You Must Pay @(item.TotalMoney / 4) Within @((item.ReservationTime.Day - DateTime.Now.Day) - 3) Day </span>
+
+                                            </td>
+                                            <td>
+
+                                                <a asp-action="PayPall" asp-controller="UserProfile">
+                                                <button class="btn btn-dark">PayPal</button>
+                                                </a>
+                                            </td>
+                                        }
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>

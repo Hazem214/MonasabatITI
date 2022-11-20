@@ -1,0 +1,59 @@
+@{
+    Layout = "_Layout2";
+}
+@using Monasapat.Models
+@model Place
+<h1 style="padding:40px 0"> welcom in this Place</h1>
+
+
+
+    <div class="container">
+        <h2 class="p-2 bg-light border text-center">Comment Details</h2>
+        <hr />
+        <div class="card card-user">
+            <div class="image">
+                <img src="~/assets/img/full-screen-image-3.jpg" alt="..." />
+            </div>
+            <div class="content">
+                <div class="author">
+                    <a href="#">
+                        <img class="avatar border-gray" src="~/assets/img/faces/face-0.jpg" alt="..." />
+
+                        <h4 class="title">
+                            User Name : @Model.Name<br />
+                            place Name : @Model.Type<br />
+                            His Price : @Model.Price<br />
+                            Place owner :@Model.PlaceOwner.Name
+                            <small></small>
+                        </h4>
+                    </a>
+                </div>
+
+            </div>
+            <hr>
+        </div>
+
+    <div class="row" style="display:flix;">
+
+        @foreach (var b in Model.PlaceImages)
+        {
+
+
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="~/placeimg/@b.Path" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+
+
+
+        }
+
+    </div>
+
+    </div>
+
+
+
+</div>

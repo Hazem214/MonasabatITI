@@ -1,0 +1,90 @@
+﻿@{
+	Layout = "_Layout2";
+}
+@using Monasapat.Models
+@model Place
+
+<style>
+	div{
+		margin:0px;
+		padding:0px;
+	}
+	body{
+		padding:0px;
+		margin:0px;
+		
+		
+	}
+	.comment
+	{
+		padding:10px;
+		margin:5px auto;
+		font-family:Montserrat-Regular;
+		background-color:#f8f9fa;
+		
+		color:black
+		
+	}
+	.row
+	{
+		padding:0px;
+		margin:0px;
+	}
+</style>
+@if(Model!=null)
+{
+	<div style="text-align:center">
+
+		<h2 style="font-weight:bold;color:#33118d9c">@Model.Name</h2>
+		<br />
+		<h3 style="color:#33118d9c">Description</h3>
+		<p>
+			This Is @Model.Type is owned to Mr @Model.PlaceOwner.Name and it had a very good reviews from the
+			the previous clients
+		</p>
+		<br />
+	</div>
+
+
+	<div style="padding:10px;background-color:#f8f9fa">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 col-lg-3 p-b-50" style="background-color:#f8f9fa">
+				<h4 style="font-weight:bolder;color:#33118d9c; padding-top:10px;text-align:center">Place information</h4><br />
+				<span style="font-weight:bolder;color:#33118d9c;padding-left:5px">The place name : </span>
+				<span style="padding:2px">@Model.Name</span><br /><hr />
+				<span style="font-weight:bolder;color:#33118d9c;padding-left:5px">The place categiory : </span>
+				<span style="padding:2px">@Model.Type</span><br /><hr />
+				<span style="font-weight:bolder;color:#33118d9c;padding-left:5px">The place price: </span>
+				<span style="padding:2px">@Model.Price</span><br /><hr />
+				<span style="font-weight:bolder;color:#33118d9c;padding-left:5px">The owner name : </span>
+				<span style="padding:2px">@Model.PlaceOwner.Name</span><br /><hr />
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-9 p-b-50">
+				<div class="row">
+					<div class="col-sm-12 col-md-12 col-lg-12">
+						<div align="center">
+							<h4 style="text-align:center;color:#33118d9c">Other Images to the Place</h4><br />
+						</div>
+					</div>
+					@foreach (var item in Model.PlaceImages)
+					{
+						<div class="col-sm-12 col-md-6 col-lg-4">
+							<img src="~/placeimg/@item.Path" alt="Some place Image" style="height:300px;width:100%;margin:5px; border-radius: 10px; box-shadow: 5px 10px 8px 10px #888888">
+						</div>
+					}
+
+					<div />
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+}
+else
+{
+	
+}
+			
+	
+	

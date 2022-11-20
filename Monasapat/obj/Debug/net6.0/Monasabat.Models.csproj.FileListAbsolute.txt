@@ -1,0 +1,14 @@
+D:\Final\Final Project\Monasapat\Monasapat\bin\Debug\net6.0\Monasabat.Models.deps.json
+D:\Final\Final Project\Monasapat\Monasapat\bin\Debug\net6.0\Monasabat.Models.runtimeconfig.json
+D:\Final\Final Project\Monasapat\Monasapat\bin\Debug\net6.0\Monasabat.Models.dll
+D:\Final\Final Project\Monasapat\Monasapat\bin\Debug\net6.0\Monasabat.Models.pdb
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\Monasabat.Models.csproj.AssemblyReference.cache
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\Monasabat.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\Monasabat.Models.AssemblyInfoInputs.cache
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\Monasabat.Models.AssemblyInfo.cs
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\Monasabat.Models.csproj.CoreCompileInputs.cache
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\Monasabat.Models.dll
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\refint\Monasabat.Models.dll
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\Monasabat.Models.pdb
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\Monasabat.Models.genruntimeconfig.cache
+D:\Final\Final Project\Monasapat\Monasapat\obj\Debug\net6.0\ref\Monasabat.Models.dll

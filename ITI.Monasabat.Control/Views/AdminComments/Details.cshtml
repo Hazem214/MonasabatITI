@@ -1,0 +1,67 @@
+﻿@model Monasapat.Models.Comments
+
+@{
+    ViewData["Title"] = "Details";
+}
+@{
+    Layout = "_Layout2";
+}
+
+
+
+<div class="container">
+    <h2 class="p-2 bg-light border text-center">Comment Details</h2>
+    <hr />
+  @*  <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CommentText)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CommentText)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.commentRate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.commentRate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Place)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Place.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.User)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.User.Id)
+        </dd>
+    </dl>*@
+
+    <div class="card card-user">
+        <div class="image">
+            <img src="~/assets/img/full-screen-image-3.jpg" alt="..." />
+        </div>
+        <div class="content">
+            <div class="author">
+                <a href="#">
+                    <img class="avatar border-gray" src="~/assets/img/faces/face-0.jpg" alt="..." />
+
+                    <h4 class="title">
+                        User Name : @Html.DisplayFor(model => model.User.UserName)<br />
+                        place Name : @Html.DisplayFor(model => model.Place.Name)<br />
+                        His Comment : @Html.DisplayFor(model => model.CommentText)<br />
+                        <small></small>
+                    </h4>
+                </a>
+            </div>
+            
+        </div>
+        <hr>
+
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

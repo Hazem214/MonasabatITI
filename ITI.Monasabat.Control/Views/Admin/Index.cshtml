@@ -1,0 +1,215 @@
+﻿
+@{
+    Layout = "_Layout2";
+}
+<style>
+    :root {
+        --main-color: #5578d8;
+        --main-color-alt: #5c77ec;
+        --main-transition: 0.3s;
+        --main-padding-top: 100px;
+        --main-padding-bottom: 100px;
+        --section-background: #ececec;
+    }
+
+
+    /* Start Stats */
+    .stats {
+        padding-top: 15px;
+        padding-bottom: var(--main-padding-bottom);
+        position: relative;
+        background-image: url("1.PNG");
+        background-size: cover;
+        min-height: 300px;
+    }
+
+        .stats::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(255 255 255 / 95%);
+        }
+
+        .stats h2 {
+            font-weight: bold;
+            font-size: 40px;
+            width: fit-content;
+            margin: 0 auto 50px;
+            position: relative;
+        }
+
+        .stats .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .stats .box {
+            background-color: white;
+            padding: 30px 15px;
+            text-align: center;
+            position: relative;
+            opacity: 0.8;
+            transition: var(--main-transition);
+            box-shadow: 0px 12px 20px 0px rgb(0 0 0 / 13%), 0px 2px 4px 0px rgb(0 0 0 / 12%);
+        }
+
+            .stats .box::before,
+            .stats .box::after {
+                content: "";
+                position: absolute;
+                width: 2px;
+                background-color: var(--main-color);
+                transition: 1s;
+                height: 0;
+            }
+
+            .stats .box::before {
+                top: 0;
+                right: 0;
+            }
+
+            .stats .box::after {
+                left: 0;
+                bottom: 0;
+            }
+
+            .stats .box:hover {
+                opacity: 1;
+            }
+
+                .stats .box:hover::before,
+                .stats .box:hover::after {
+                    height: 100%;
+                }
+
+            .stats .box .number {
+                display: block;
+                font-size: 50px;
+                font-weight: bold;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .stats .box .text {
+                color: var(--main-color);
+                font-style: italic;
+                font-size: 20px;
+                font-weight: bold;
+            }
+    /* End Stats */
+
+    /* Start Animation */
+
+
+
+    @@keyframes moving-arrow {
+        100% {
+            transform: translateX(10px);
+        }
+    }
+
+    @@keyframes flashing {
+        0%,
+        40% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+            width: 200%;
+            height: 200%;
+        }
+    }
+
+    @@keyframes change-background {
+        0%,
+        100% {
+            background-image: url("../imgs/discount-background1.jpg");
+        }
+
+        50% {
+            background-image: url("../imgs/discount-background2.jpg");
+        }
+    }
+
+    /* End Animation */
+
+</style>
+
+<div class="col-md-8">
+    <div class="stats" id="stats">
+        <h2>Our Awesome Stats</h2>
+        <div style=" display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 40px;padding: 16px;">
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <span class="number">@ViewBag.NumberOFUser</span>
+                <span class="text">Clients</span>
+            </div>
+            <div class="box">
+                <i class="fas fa-code fa-2x fa-fw"></i>
+                <span class="number">  @ViewBag.NumberOfOFReservations</span>
+                <span class="text">Reservations</span>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia fa-2x fa-fw"></i>
+                <span class="number">@ViewBag.NumberOfPlaces</span>
+                <span class="text">Places</span>
+            </div>
+            <div class="box">
+                <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
+                <span class="number">@ViewBag.TotalMoney $</span>
+                <span class="text">Money</span>
+            </div>
+            <div class="box">
+                <i class="fas fa-code fa-2x fa-fw"></i>
+                <span class="number">@ViewBag.Comments</span>
+                <span class="text">Comments</span>
+            </div>
+            <div class="box">
+                <i class="fas fa-code fa-2x fa-fw"></i>
+                <span class="number">  @ViewBag.PlaceOwner</span>
+                <span class="text">Place Owners</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ===================================================================================================================================== -->
+<div class="col-md-4">
+    <div class="card card-user">
+        <div class="image">
+            <img src="~/images/aa.PNG" alt="..." />
+        </div>
+        <div class="content">
+            <div class="author">
+                <a href="#">
+                    <img class="avatar border-gray" src="~/assets/img/faces/face-0.jpg" alt="..." />
+
+                    <h4 class="title">
+                        @User.Identity.Name<br />
+                        <small>Admin</small>
+                    </h4>
+                </a>
+            </div>
+            <p class="description text-center">
+                <br>
+                Welcom MR : @User.Identity.Name <br>
+                Here you can Control with you Website
+            </p>
+        </div>
+        <hr>
+        <div class="text-center">
+            <button href="#" class="btn btn-simple"><i class="fa fa-facebook-square"></i></button>
+            <button href="#" class="btn btn-simple"><i class="fa fa-twitter"></i></button>
+            <button href="#" class="btn btn-simple"><i class="fa fa-google-plus-square"></i></button>
+
+        </div>
+    </div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITI.Monasabat.Models", "Monasapat\ITI.Monasabat.Models.csproj", "{1C5C8BDF-0760-42A4-BED0-E772DCB923E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITI.Monasabat.Control", "ITI.Monasabat.Control\ITI.Monasabat.Control.csproj", "{E543698E-5391-418D-A41C-0E83445D5BBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C5C8BDF-0760-42A4-BED0-E772DCB923E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5C8BDF-0760-42A4-BED0-E772DCB923E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5C8BDF-0760-42A4-BED0-E772DCB923E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5C8BDF-0760-42A4-BED0-E772DCB923E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E543698E-5391-418D-A41C-0E83445D5BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E543698E-5391-418D-A41C-0E83445D5BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E543698E-5391-418D-A41C-0E83445D5BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E543698E-5391-418D-A41C-0E83445D5BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF804127-294B-4C8A-ADCD-44DB7F87309C}
+	EndGlobalSection
+EndGlobal

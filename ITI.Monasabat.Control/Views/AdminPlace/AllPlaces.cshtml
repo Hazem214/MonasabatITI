@@ -1,0 +1,63 @@
+﻿@using Monasapat.Models
+@model IEnumerable<Place>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    Layout = "_Layout2";
+}
+
+
+<h1 class="text-center">Manege place </h1>
+<pr>
+<p class="p-2 bg-light border" style="text-align:center">
+        <a href="/AdminPlace/Add" class="btn btn-primary" >Add New Place </a>
+    <pr>
+</p>
+
+<div class="container">
+
+
+    <table class="table table-striped table-hover">
+
+        <thead>
+                <tr style=" color:black ; font-size:30px;font-weight:bold">
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Type</th>
+                        <th>City</th>
+                        <th>Image</th>
+                        <th>Action</th>
+            </tr>
+        </thead>
+        
+
+            @foreach (var item in Model.ToList())
+            {
+                <tbody>
+                <tr >
+
+                    <td>@item.ID<span> </span></td>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>@item.Type</td>
+                    <td>@item.city.Name</td>
+                    <td>
+                        <img src="/placeimg/@item.PlaceImages?.FirstOrDefault()?.Path" style="width:50px;height:50px" />
+
+                    </td>
+                        <td class="col-2">
+                            <a asp-action="Edit" asp-route-id="@item.ID " class="btn btn-outline-primary" >Edit</a> |
+                            <a asp-action="GetID" asp-route-id="@item.ID" class="btn btn-outline-info" >Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-outline-danger" >Delete</a>
+                    </td>
+                </tr>
+                </tbody>
+            }
+       
+    </table>
+
+
+</div>

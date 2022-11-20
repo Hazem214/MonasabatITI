@@ -1,0 +1,352 @@
+﻿@using ITI.Monasabat.Models
+@using Monasapat.Models;
+<link rel="stylesheet" href="~/css/PagedList.css">
+
+@model IPagedList<Place>
+<style>
+	/*.gallery-title {
+		font-size: 36px;
+		color: #42B32F;
+		text-align: center;
+		font-weight: 500;
+		margin-bottom: 70px;
+	}
+
+		.gallery-title:after {
+			content: "";
+			position: absolute;
+			width: 7.5%;
+			left: 46.5%;
+			height: 45px;
+			border-bottom: 1px solid #5e5e5e;
+		}*/
+		
+	.filter-select {
+		font-size: 20px;
+		border: 0.5px solid #33118d9c;
+		border-radius: 5px;
+		background-color:none;
+		text-align: center;
+		color: #33118d9c;
+		margin-bottom: 10px;
+	}
+
+		.filter-select:hover {
+			font-size: 22px;
+			border: 0.5px solid #33118d9c;
+			
+			text-align: center;
+			background-color:#33118d9c;
+			color: white;
+		}
+
+	body {
+		padding: 0px;
+		margin: 0px;
+		/background-color: #42B32F;/
+		  font-family: "Roboto", sans-serif;
+		}
+
+	.select-default:active .filter-select:active {
+		background-color:#30118595;
+		color: white;
+	}
+
+
+	.pos {
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 90%;
+		height:35px;
+		margin: 5px 10px;
+		
+	}
+	.row
+	{
+		padding:0px;
+		margin:0px;
+	}
+	.btn-fiter{
+		width:60%;
+		border-radius:4px;
+		margin:5px;
+		padding:10px;
+		font-size: 20px;
+		background-color:#30118595;
+		color:white
+	}
+	.search{
+		/font-family:Montserrat-Regular;/
+		width: 100%;
+		background-color: white;
+		/*justify-content: center;
+		align-items: center;*/
+		margin:0;
+			text-align: center;
+	
+	}
+	.block2
+	{
+		-webkit-text-size-adjust: 100%;
+		-webkit-tap-highlight-color: transparent;
+		
+	}
+	.search-tex
+	{
+		font-size: 20px;
+		border: 1px solid #33118d9c;
+		border-radius: 5px;
+		background-color:#f7f9fa;
+		text-align: center;
+		color: #33118d9c;
+		padding:5px;
+		width:380px;
+		margin: 10px;
+			border-radius: 22px;
+	}
+	.search-btn
+	{
+		font-size: 18px;
+		border: 1px solid #33118d9c;
+		border-radius: 5px;
+		background-color:#33118d9c;
+		text-align: center;
+		color: white;
+		width:110px;
+		margin: 10px;
+		padding: 6px;
+		border-radius: 26px;
+	}
+
+
+
+	@@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+	* {
+	  box-sizing: border-box;
+	}
+
+		.container {
+	  display: flex;
+	  width: 1040px;
+	  justify-content: space-evenly;
+	  flex-wrap: wrap;
+	}
+	.card {
+	  margin: 10px;
+	  background-color: #fff;
+	  border-radius: 10px;
+	  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+	  overflow: hidden;
+	  width: 300px;
+	}
+	.card-header{
+		 padding: 0px;
+	}
+	.card-header img {
+	  width: 100%;
+	  height: 200px;
+	  object-fit: cover;
+	}
+	.card-body {
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: flex-start;
+	  padding: 20px;
+	  min-height: 250px;
+	}
+
+	.tag {
+	  background: #cccccc;
+	  border-radius: 50px;
+	  font-size: 12px;
+	  margin: 0;
+	  color: #fff;
+	  padding: 2px 10px;
+	  text-transform: uppercase;
+	  cursor: pointer;
+	  
+	}
+	.tag-teal {
+	  background-color: #33118d9c;
+	}
+	.tag-purple {
+	  background-color: #5e76bf;
+	}
+	.tag-pink {
+	  background-color: #cd5b9f;
+	}
+
+	.card-body p {
+	  font-size: 13px;
+	 
+	}
+
+</style>
+<link href="~/lib/bootstrap/dist/css/bootstrap-grid.min.css" rel="stylesheet" id="bootstrap-css">
+
+
+<div class="search">
+	<div style="width:50%;margin:10px auto">
+		<form method="post" asp-controller="PlaceOcc" asp-action="search">
+			<input type="text" id="searchtext" name="searchtext" class="search-tex" placeholder="Search by place name" />
+			<input type="submit" value="Search" class="search-btn" />
+		</form>
+	</div>
+	
+</div>
+<div style="padding:10px;background-color:#f8f9fa">
+	
+	<div class="row" style="padding:0px;margin:0">
+		<div class="col-sm-12 col-md-6 col-lg-2 p-b-50" style="background-color:white">
+			<form style="padding-top:25px" method="post" asp-controller="PlaceOcc" asp-action="FilterPlaces">
+				
+					<div>
+					<select id="categiory" name="categiory" class="select-default filter-select pos">
+						<option value="none"> Select a categiory</option>
+						<option value="Wedding hall">Wedding</option>
+							<option value="Conference hall">Conference</option>
+							<option value="BirthDay">Birthday</option>
+						</select>
+					</div>
+					<div>
+					<label style="display:block;margin-left:10px"></label>
+					<select id="city" name="city" class="select-default filter-select pos">
+						<option value="none">Select City </option>
+							@foreach (string s in ViewBag.cit)
+							{
+								<option>@s</option>
+							}
+						</select>
+					</div>
+					
+					<div>
+						<select id="a" name="price" class="select-default filter-select pos">
+						<option value="0">Select Price</option>
+							<option value="1">less than 10000</option>
+						    <option value="2">More than 20000</option>
+						</select>
+					</div>
+				
+				
+					<div align="center">
+					<a >
+						<input type="submit" style=" background-color: #33118d9c" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" value="Filter" />
+
+						</a>
+					</div>
+			</form>
+		</div>
+		<div class="col-sm-12 col-md-12 col-lg-10 p-b-50" style="padding:10px;background-color:white">
+			<div class="row">
+				@if(Model.ToList().Count==0)
+				{
+					<h4 style="text-align:center;padding:20px;font-weight:bold;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+						Sorry!! Tere is no place suits your needs
+					</h4>
+				}
+				else
+				{
+					@foreach (Place p in Model.ToList())
+					{
+						@if (p.PlaceImages.Count < 1 || p.PlaceImages == null)
+						{
+
+
+						}
+
+						else
+						{
+							<div class="col-sm-12 col-md-6 col-lg-4 ">
+
+
+								<div class="container">
+									<div class="card">
+										<div class="card-header">
+											<img src="~/placeimg/@p.PlaceImages.FirstOrDefault().Path" alt="rover" />
+											<div class="block2-overlay trans-0-4">
+										
+												<div class="block2-btn-addcart w-size1 trans-0-4">
+													<!-- Button -->
+
+													<a asp-controller="PlaceOcc" asp-action="PlaceDetails" asp-route-id="@p.ID">
+														<input type="button" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" value="Details">
+													</a>
+
+												</div>
+											</div>
+										</div>
+										<div class="card-body">
+											<span class="tag tag-teal"> @p.Type</span>
+											<h5>
+												place Name :<span style="font-size: 20px;"> @p.Name</span>
+											</h5>
+											<p>
+												<b style="color: #33118d9c;font-size: 20px;">City</b>  :	@p.city.Name
+											</p>
+											<p>
+												<b style="color: #33118d9c;font-size: 20px;">Price</b> : @p.Price.ToString() $
+											</p>
+											
+											<p>
+												This is beatful place for you suitable
+											</p>
+										</div>
+									</div>
+								</div>
+
+							
+
+								@*<div class="block2" style="border:0.5px solid #30118595; ">
+									<div class="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+										<img src="~/placeimg/@p.PlaceImages.FirstOrDefault().Path" style="height:310px;width:inherit">
+
+
+										<div class="block2-overlay trans-0-4">
+
+											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+
+
+											<div class="block2-btn-addcart w-size1 trans-0-4">
+												<!-- Button -->
+
+												<a asp-controller="PlaceOcc" asp-action="PlaceDetails" asp-route-id="@p.ID">
+													<input type="button" class="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4" value="Details">
+												</a>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="block2-txt p-t-20" style="padding:5px">
+										<div class="block2-name dis-block s-text3 p-b-5" style="margin-top:5px;font-weight:bold;color:#30118595">
+											<a style="font-weight:bold;color:#30118595" asp-controller="PlaceOcc" asp-action="PlaceDetails" asp-route-id="@p.ID">@p.Name</a> <br /> @p.Type
+										</div>
+										<div class="block2-price m-text6 p-r-5" style="margin-bottom:10px;font-weight:bold;color:#30118595">
+											@p.Price.ToString() P
+										</div>
+									</div>
+
+								</div>*@
+
+
+
+
+
+							</div>
+							
+
+
+						}
+
+					}
+					<div style=" position: relative; left: 48%;">
+					@Html.PagedListPager((IPagedList)Model, pageIndex => Url.Action("Places", new { pageIndex }) )
+					</div>
+				}
+				
+			</div>
+		</div>
+	</div>
+</div>

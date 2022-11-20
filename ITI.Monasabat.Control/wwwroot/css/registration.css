@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+body {
+   /* background-image: url(../photo/bac.jpg);*/
+    background-image: url('../images/bac.jpg');
+    background-repeat: round;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container1{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow:0 2px 5px rgba(0, 0, 0,0.3);
+    width: 400px;
+    max-width: 100%;;
+    overflow: hidden;
+}
+
+.header{
+    border-bottom: 1px solid #f0f0f0;
+	background-color: #f7f7f7;
+	padding: 20px 40px;
+}
+
+.header h2{
+    text-align: center;
+}
+
+.form{
+    padding: 30px 40px;
+
+}
+
+.form-contrl{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-contrl lable {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-contrl input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    font-family: inherit;
+}
+
+.form-contrl small{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form button{
+    background-color: #e27542;
+	border: 2px solid #e27542;
+	border-radius: 14px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.form-contrl.success input{
+
+    border-color: #2ecc71;
+
+}
+
+.form-contrl.error input{
+
+    border-color: #e74c3c;
+
+}
+.form-contrl.error small{
+    visibility:visible ;
+    color: #e74c3c;
+
+}
+
+
+
+
+
+
+
+

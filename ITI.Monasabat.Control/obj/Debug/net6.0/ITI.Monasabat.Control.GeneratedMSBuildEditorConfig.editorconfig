@@ -1,0 +1,160 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ITI.Monasabat.Control
+build_property.RootNamespace = ITI.Monasabat.Control
+build_property.ProjectDir = C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\ITI.Monasabat.Control\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ahmed Gamal\Desktop\last 17 final project\final\Monasabat\ITI.Monasabat.Control
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminComments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db21tZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminComments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db21tZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminComments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Db21tZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminPlaceOwners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGFjZU93bmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminPlaceOwners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGFjZU93bmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminPlaceOwners/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGFjZU93bmVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminPlaceOwners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGFjZU93bmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminPlaceOwners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGFjZU93bmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminPlace/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGFjZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminPlace/AllPlaces.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGFjZVxBbGxQbGFjZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminPlace/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGFjZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminPlace/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5QbGFjZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminReservations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNlcnZhdGlvbnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminReservations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNlcnZhdGlvbnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminReservations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNlcnZhdGlvbnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminReservations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNlcnZhdGlvbnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/AdminReservations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5SZXNlcnZhdGlvbnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Home/OurTeam.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxPdXJUZWFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/PlaceOcc/PlaceDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VPY2NcUGxhY2VEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/PlaceOcc/Places.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhY2VPY2NcUGxhY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/UserProfile/GetUserReservations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcR2V0VXNlclJlc2VydmF0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/UserProfile/PayPall.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVcUGF5UGFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/User/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/User/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduSW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/User/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ahmed Gamal/Desktop/last 17 final project/final/Monasabat/ITI.Monasabat.Control/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-p6mze6y074

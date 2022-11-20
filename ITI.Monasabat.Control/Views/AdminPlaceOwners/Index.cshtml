@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Monasapat.Models.PlaceOwner>
+
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    Layout = "_Layout2";
+}
+
+
+<h1 class="text-center">Manege place Owner</h1>
+
+<p class ="p-2 bg-light border" style="text-align:center">
+    <a asp-action="Create" class="btn btn-primary" >Create Place Owner</a>
+</p>
+
+<div class="container">
+   
+        
+        <table class="table">
+
+                    <thead>
+                                    <tr>
+                                        <th>
+                                            @Html.DisplayNameFor(model => model.Name)
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                    </thead>
+                    <tbody>
+
+                              @foreach (var item in Model) {
+                                    <tr class="row">
+                                          
+                                        <td class="col-10 p-2">
+                                            @Html.DisplayFor(modelItem => item.Name)
+                                        </td>
+                                        <td class="col-2" style="text-align:end;">
+                                            <a asp-action="Edit" asp-route-id="@item.ID " class="btn btn-outline-primary">Edit</a> |
+                                            <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-outline-info">Details</a> |
+                                            <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-outline-danger">Delete</a>
+                                        </td>
+                                    </tr>
+                              }
+                    </tbody>
+        </table>
+
+  
+</div>
